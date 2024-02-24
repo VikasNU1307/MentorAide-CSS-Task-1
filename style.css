@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(250, 254, 254);
+}
+.navigation-bar{
+    height: 100px;
+    width: 100%;
+    background-color: #007BFF;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+}
+.Skill-section{
+    margin-top:20px ;
+    padding-left: 10px;
+    
+}
+.Skill-section h2{
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+.Skill-section input{
+    width: 70%;
+    height: 50px;
+    background-color:lightgray ;
+    border: none;
+}
+.Project{
+    
+    padding-top: 30px;
+
+}
+.Project h2{
+    padding-left: 10px;
+    color: #007BFF;
+}
+
+.Project-description{
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    width: 80%;
+    height: 80px;
+    border: solid 1px rgb(122, 121, 121);
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.contact-form{
+   /* border: solid 1px black; */
+   width: 30%;
+   height: 23s0px;
+   margin-left: 35%;
+   
+}
+.contact-form h2{
+    color: #007BFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.input-section input{
+    
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 70%;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+}
+.third{
+    height:100px ;
+}
+.contact-form button{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #007BFF;
+    width: 70%;
+    height: 30px;
+    color:#ffff;
+    border: none;
+}
